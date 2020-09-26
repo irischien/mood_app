@@ -1,0 +1,22 @@
+{
+    "name": "Mood App",
+    "version": "0.5",
+    "description": "Build an Extension for the first time...",
+
+    "permissions": ["storage", "activeTab", "declarativeContent"],
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+
+    "options_page": "options.html",
+
+    "manifest_version": 2
+  }
+
+  
